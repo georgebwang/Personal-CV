@@ -1,0 +1,76 @@
+---
+name: George Baihan Wang
+position: MCom Research Candidate - Banking & Finance
+qualifications: MCom(in progress), BChemEng(Hons)/BCom
+address: Melbourne, Victoria, Australia
+phone: +61 424 928 616
+www: georgewang.rbind.io
+email: george.baihan.wang@gmail.com
+github: georgebwang
+linkedin: george-baihan-wang
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "414141"
+output: 
+  vitae::awesomecv:
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Education
+```{r education}
+tribble(
+  ~ Degree, ~ Uni, ~ Year, ~ Details,
+  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Full scholarship research-oriented program offered by the Department of Banking and Finance, Monash Business School",
+  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Competitive admission - six places each year",
+  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Research interests: Empirical Asset Pricing, Financial Econometrics",
+  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Engineering specialisation: Chemical Engineering",
+  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Commerce major: Finance",
+  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Commerce minor: Econometrics",
+  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Overall WAM: 83.78; BChemEng(Hons) WAM: 80.87; BCom WAM: 88.19",
+  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours"
+) %>% 
+  detailed_entries(with = Degree, when = Year, what = Uni, why = Details)
+```
+
+# Experience
+```{r experience}
+tribble(
+  ~ role, ~ company, ~ dates, ~ details,
+  "Head Tutor and Editor - VCE Accounting", "AIM Education", "Apr. 2016 - Present", "Responsible for authoring the company-exclusive teaching package for VCE Accounting, including lecture notes, practice questions and mock exams", 
+  "Casual Undergraduate Finance Tutor", "HD Education", "Mar. 2020 - Jun. 2020", "Responsible for holding one-on-one and group tutoring for Monash University undergraduate level Finance courses",
+  "Casual Undergraduate Finance Tutor", "HD Education", "Mar. 2020 - Jun. 2020", "Taught units include: BFC2751 - Derivatives 1, BFC3241 - Equity and Investment Analysis",
+  "Student Researcher", "DuluxGroup", "Mar. 2020 - Apr. 2020", "Responsible for conducting an in-depth industrial research project on investigating the effect of polymer synthesis processing on the morphology of the final polymer particle, and in turn its effect on paint properties"
+) %>% 
+  detailed_entries(with = role, when = dates, what = company, why = details)
+```
+
+# Skills
+
+R, Python, MATLAB/Octave, LaTeX, Linux, EViews, Aspen Plus, ImageJ, Visio
+
+# Awards
+```{r awards}
+tribble(
+  ~ award, ~ from, ~ date,
+  "Graduate Research Scholarship - MCom", "Monash Business School", "Dec. 2020",
+  "Financial Risk Manager (FRM) Certification - Part I cleared", "Global Association of Risk Professionals (GARP)", "Jan. 2020",
+  "CFA Student Scholarship", "CFA Institute", "Jan. 2020",
+  "Faculty of Engineering Dean's Honours List 2017", "Monash University", "Apr. 2018",
+  "Faculty of Engineering Dean's Honours List 2016", "Monash University", "Apr. 2017",
+  "Monash Engineering Undergraduate
+Scholarship", "Monash University", "Jan. 2016"
+) %>% 
+  detailed_entries(with = award, what = from, when = date)
+```
+
+
+
+
+
+
+
