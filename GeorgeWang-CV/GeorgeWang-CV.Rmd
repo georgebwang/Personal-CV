@@ -28,11 +28,10 @@ tribble(
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Full scholarship research-oriented program offered by the Department of Banking and Finance, Monash Business School",
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Competitive admission - six places each year",
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Research interests: Empirical Asset Pricing, Financial Econometrics",
-  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Engineering specialisation: Chemical Engineering",
-  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Commerce major: Finance",
-  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Commerce minor: Econometrics",
-  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Overall WAM: 83.78; BChemEng(Hons) WAM: 80.87; BCom WAM: 88.19",
-  "Bachelor of Chemical Engineering (Honours) and Bachelor of Commerce", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours"
+  "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "BChemEng(Hons) WAM: 80.87",
+  "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours",
+  "Bachelor of Commerce", "Monash University", "2016 - 2020", "BCom WAM: 88.19",
+  "Bachelor of Commerce", "Monash University", "2016 - 2020", "Major: Finance (Average 91.5); Minor: Econometrics (Average 86.1)"
 ) %>% 
   detailed_entries(with = Degree, when = Year, what = Uni, why = Details)
 ```
