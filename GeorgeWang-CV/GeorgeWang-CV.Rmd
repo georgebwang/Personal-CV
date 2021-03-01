@@ -50,7 +50,7 @@ tribble(
 
 # Skills
 
-R, Python, MATLAB/Octave, LaTeX, Linux, EViews, Aspen Plus, ImageJ, Visio
+R, Python, SAS, MATLAB/Octave, LaTeX, Linux, EViews, Aspen Plus, ImageJ, Visio
 
 # Awards
 ```{r awards}
