@@ -26,8 +26,8 @@ knitr::opts_chunk$set(echo = FALSE)
 tribble(
   ~ Degree, ~ Uni, ~ Year, ~ Details,
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Full scholarship research-oriented program offered by the Department of Banking and Finance, Monash Business School",
-  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Competitive admission - six places each year",
-  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Research interests: Empirical Asset Pricing, Financial Econometrics",
+  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Competitive admission - four places in 2021",
+  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Research interests: Empirical Asset Pricing, Empirical Corporate Finance",
   "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "BChemEng(Hons) WAM: 80.87",
   "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours",
   "Bachelor of Commerce", "Monash University", "2016 - 2020", "BCom WAM: 88.19",
@@ -56,6 +56,8 @@ R, Python, SAS, MATLAB/Octave, LaTeX, Linux, EViews, Aspen Plus, ImageJ, Visio
 ```{r awards}
 tribble(
   ~ award, ~ from, ~ date,
+  "2020 Dean's Honour", "Monash Business School", "Apr. 2021",
+  "Chartered Financial Analyst (CFA) - Level I passed", "CFA Institute", "Apr. 2021",
   "Graduate Research Scholarship - MCom", "Monash Business School", "Dec. 2020",
   "Financial Risk Manager (FRM) Certification - Part I cleared", "Global Association of Risk Professionals (GARP)", "Jan. 2020",
   "CFA Student Scholarship", "CFA Institute", "Jan. 2020",
