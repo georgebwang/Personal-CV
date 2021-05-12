@@ -28,8 +28,8 @@ tribble(
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Full scholarship research-oriented program offered by the Department of Banking and Finance, Monash Business School",
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Competitive admission - four places in 2021",
   "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Research interests: Empirical Asset Pricing, Empirical Corporate Finance",
-  "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "BChemEng(Hons) WAM: 80.87",
-  "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours",
+  "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "BChemEng(Hons) WAM: 80.87 (H1 First Class Honours)",
+  #"Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours",
   "Bachelor of Commerce", "Monash University", "2016 - 2020", "BCom WAM: 88.19",
   "Bachelor of Commerce", "Monash University", "2016 - 2020", "Major: Finance (Average 91.5); Minor: Econometrics (Average 86.1)"
 ) %>% 
@@ -40,9 +40,7 @@ tribble(
 ```{r experience}
 tribble(
   ~ role, ~ company, ~ dates, ~ details,
-  "Head Tutor and Editor - VCE Accounting", "AIM Education", "Apr. 2016 - Present", "Responsible for authoring the company-exclusive teaching package for VCE Accounting, including lecture notes, practice questions and mock exams", 
-  "Casual Undergraduate Finance Tutor", "HD Education", "Mar. 2020 - Jun. 2020", "Responsible for holding one-on-one and group tutoring for Monash University undergraduate level Finance courses",
-  "Casual Undergraduate Finance Tutor", "HD Education", "Mar. 2020 - Jun. 2020", "Taught units include: BFC2751 - Derivatives 1, BFC3241 - Equity and Investment Analysis",
+  "Head Tutor and Editor - VCE Accounting", "AIM Education", "Apr. 2016 - Nov. 2020", "Responsible for authoring the company-exclusive teaching package for VCE Accounting, including lecture notes, practice questions and mock exams", 
   "Student Researcher", "DuluxGroup", "Mar. 2020 - Apr. 2020", "Responsible for conducting an in-depth industrial research project on investigating the effect of polymer synthesis processing on the morphology of the final polymer particle, and in turn its effect on paint properties"
 ) %>% 
   detailed_entries(with = role, when = dates, what = company, why = details)
