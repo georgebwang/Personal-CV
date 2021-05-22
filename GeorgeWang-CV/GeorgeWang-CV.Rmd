@@ -39,11 +39,11 @@ tribble(
 # Experience
 ```{r experience}
 tribble(
-  ~ role, ~ company, ~ dates, ~ details,
-  "Head Tutor and Editor - VCE Accounting", "AIM Education", "Apr. 2016 - Nov. 2020", "Responsible for authoring the company-exclusive teaching package for VCE Accounting, including lecture notes, practice questions and mock exams", 
-  "Student Researcher", "DuluxGroup", "Mar. 2020 - Apr. 2020", "Responsible for conducting an in-depth industrial research project on investigating the effect of polymer synthesis processing on the morphology of the final polymer particle, and in turn its effect on paint properties"
+  ~ role, ~ company, ~ dates,
+  "Head Tutor and Editor - VCE Accounting", "AIM Education", "Apr. 2016 - Nov. 2020", 
+  "Student Researcher in Polymer Chemistry", "DuluxGroup", "Mar. 2020 - Apr. 2020"
 ) %>% 
-  detailed_entries(with = role, when = dates, what = company, why = details)
+  detailed_entries(with = role, when = dates, what = company)
 ```
 
 # Skills
@@ -54,6 +54,7 @@ R, Python, SAS, MATLAB/Octave, LaTeX, Linux, EViews, Aspen Plus, ImageJ, Visio
 ```{r awards}
 tribble(
   ~ award, ~ from, ~ date,
+  "Faculty of Engineering Dean's Honours List 2020", "Monash University", "May 2021",
   "2020 Dean's Honour", "Monash Business School", "Apr. 2021",
   "Chartered Financial Analyst (CFA) - Level I passed", "CFA Institute", "Apr. 2021",
   "Graduate Research Scholarship - MCom", "Monash Business School", "Dec. 2020",
