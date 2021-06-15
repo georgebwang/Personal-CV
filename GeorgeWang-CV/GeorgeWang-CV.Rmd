@@ -1,10 +1,10 @@
 ---
 name: George Baihan Wang
-position: MCom Research Candidate - Banking & Finance
-qualifications: MCom(in progress), BChemEng(Hons)/BCom
+position: MCom Research Student - Banking & Finance
+qualifications: MCom(in progress), BChemEng(Hons), BCom
 address: Melbourne, Victoria, Australia
 phone: +61 424 928 616
-www: georgewang.rbind.io
+www: georgebaihanwang.com
 email: george.baihan.wang@gmail.com
 github: georgebwang
 linkedin: george-baihan-wang
@@ -41,14 +41,14 @@ tribble(
 tribble(
   ~ role, ~ company, ~ dates,
   "Head Tutor and Editor - VCE Accounting", "AIM Education", "Apr. 2016 - Nov. 2020", 
-  "Student Researcher in Polymer Chemistry", "DuluxGroup", "Mar. 2020 - Apr. 2020"
+  "Student Researcher - Polymer Chemistry", "DuluxGroup", "Mar. 2020 - Apr. 2020"
 ) %>% 
   detailed_entries(with = role, when = dates, what = company)
 ```
 
 # Skills
 
-R, Python, SAS, MATLAB/Octave, LaTeX, Linux, EViews, Aspen Plus, ImageJ, Visio
+R | Python | SAS | MATLAB | LaTeX | Linux | EView | Aspen Plus | ImageJ | Visio
 
 # Awards
 ```{r awards}
