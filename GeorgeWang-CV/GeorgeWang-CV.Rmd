@@ -25,13 +25,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r education}
 tribble(
   ~ Degree, ~ Uni, ~ Year, ~ Details,
-  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Full scholarship research-oriented program offered by the Department of Banking and Finance, Monash Business School",
-  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Competitive admission - four places in 2021",
-  "Master of Commerce", "Monash Universtiy", "2021 - 2022", "Research interests: Empirical Asset Pricing, Empirical Corporate Finance",
+  "Master of Commerce", "Monash Business School", "2021 - 2022", "Full scholarship research-oriented program offered by the Department of Banking and Finance, Monash Business School",
+  "Master of Commerce", "Monash Business School", "2021 - 2022", "MCom WAM: 93.50 (ongoing)",
   "Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "BChemEng(Hons) WAM: 80.87 (H1 First Class Honours)",
-  #"Bachelor of Chemical Engineering (Honours)", "Monash University", "2016 - 2020", "Graduated with H1 First Class Honours",
   "Bachelor of Commerce", "Monash University", "2016 - 2020", "BCom WAM: 88.19",
-  "Bachelor of Commerce", "Monash University", "2016 - 2020", "Major: Finance (Average 91.5); Minor: Econometrics (Average 86.1)"
+  "Bachelor of Commerce", "Monash University", "2016 - 2020", "Major: Finance | Minor: Econometrics"
 ) %>% 
   detailed_entries(with = Degree, when = Year, what = Uni, why = Details)
 ```
@@ -48,7 +46,7 @@ tribble(
 
 # Skills
 
-R | Python | SAS | MATLAB | LaTeX | Linux | EView | Aspen Plus | ImageJ | Visio
+R | Python | SAS | MATLAB | LaTeX | Linux | EViews | Aspen Plus | ImageJ | Visio
 
 # Awards
 ```{r awards}
